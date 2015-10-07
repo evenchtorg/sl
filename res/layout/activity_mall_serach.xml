@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.shili.activity.mall.MallSerachActivity" >
+
+   <RelativeLayout style="@style/activity_title_style">
+	<ImageButton android:id="@+id/search_btn_back" style="@style/activity_title_back" />  
+
+
+            <com.my.shili.widge.ClearEditText
+                android:id="@+id/search_et_input"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="7dp"
+                android:drawableLeft="@drawable/search_icon"
+                android:background="@drawable/search_edit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_title_height"
+                android:textSize="15sp"
+                android:drawablePadding="5dp"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:hint="请输入关键字"/>
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/search_lv_tips"
+        android:background="@drawable/lv_search_tips_bg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </ListView>
+
+</RelativeLayout>

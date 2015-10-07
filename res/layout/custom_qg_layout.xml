@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 更多抢购按钮 -->
+
+                    <TextView
+                        android:id="@+id/morexsqg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/xsqg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="限时抢购"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/qgdjs_seccend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/qgdjs_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="11"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/timesplitC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/qgdjs_seccend"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text=":"
+                        android:textColor="@color/qgdjs_bg_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/qgdjs_minute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/timesplitC"
+                        android:background="@drawable/qgdjs_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="45"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/timesplitB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/qgdjs_minute"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text=":"
+                        android:textColor="@color/qgdjs_bg_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/qgdjs_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/timesplitB"
+                        android:background="@drawable/qgdjs_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="1"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+                     <TextView
+                        android:id="@+id/timesplitA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/qgdjs_hours"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="天"
+                        android:textColor="@color/qgdjs_bg_color"
+                        android:textSize="12sp" />
+                      <TextView
+                        android:id="@+id/qgdjs_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/timesplitA"
+                        android:background="@drawable/qgdjs_bg"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="2"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/qgdjsinfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/qgdjs_day"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:text="活动结束倒计时"
+                        android:textColor="@color/qgdjs_bg_color"
+                        android:textSize="12sp" />
+                </RelativeLayout>

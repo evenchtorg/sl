@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_sys_title">20sp</dimen>
+    <dimen name="activity_title_height">45dip</dimen>
+    <dimen name="activity_title_back_btn_padding">0dip</dimen>
+    <dimen name="activity_title_menu_btn_padding">0dip</dimen>
+    <dimen name="activity_title_padding_left">10dip</dimen>
+    <dimen name="activity_title_padding_right">10dip</dimen>
+    <dimen name="search_activity_horizontal_margin">16dp</dimen>
+    <dimen name="search_activity_vertical_margin">16dp</dimen>
+    <dimen name="search_btn_height">40dp</dimen>
+    <dimen name="search_btn_width">50dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

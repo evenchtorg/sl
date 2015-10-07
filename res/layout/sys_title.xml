@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sys_theme_color"
+    android:paddingBottom="10dip"
+    android:paddingTop="10dip" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableLeft="@drawable/btn_title_back"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_sys_title" />
+
+</RelativeLayout>
