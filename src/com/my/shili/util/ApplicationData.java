@@ -36,7 +36,7 @@ public class ApplicationData {
 		}
 		return executorService;
 	}
-	
+	//test
 	/**
 	 * 初始化图片加载
 	 * @param context
